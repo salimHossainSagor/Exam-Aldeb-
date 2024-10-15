@@ -1,0 +1,588 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fcfdfd;
+  z-index: -99999;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+.container {
+  width: 1232px;
+  margin: 0 auto;
+}
+
+/* ==================================> Navbar Start Here <===================================== */
+#navbar {
+  margin-top: 51px;
+}
+
+.navbar_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(50% + 320px);
+  height: 1046px;
+  z-index: -9;
+}
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.logo H1 {
+  width: 20%;
+  color: #3ed1ba;
+  font-size: 48px;
+  font-weight: 700;
+}
+.menu {
+  width: 38%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 34px;
+}
+
+.menu li a {
+  color: #333333;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+}
+.menu li a:hover {
+  -webkit-text-stroke: 1px #333333;
+}
+.underline {
+  margin-top: 24px;
+  width: 100%;
+  height: 1px;
+  background-color: #3ed1ba;
+}
+/* ==================================> Navbar End Here <===================================== */
+
+/* ==================================> Banner Start Here <===================================== */
+.banner_top {
+  display: flex;
+  width: 100%;
+  height: 440px;
+  justify-content: space-between;
+}
+.description {
+  margin-top: 64px;
+}
+.description h1 {
+  width: 624px;
+  height: 258px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 86px;
+  color: #333333;
+}
+.paragraph {
+  width: 585px;
+  height: 96px;
+  margin-top: 24px;
+}
+.paragraph p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #777777;
+}
+.img_desc {
+  width: 184px;
+  height: 251px;
+  background: #ffffff;
+  margin-top: 90px;
+  border-radius: 8px;
+  box-shadow: 0px 20px 50px #e2e2e2;
+}
+.image_des img {
+  padding: 16px 12px 0px 12px;
+}
+.image_des p {
+  padding: 5px 12px 16px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+.image1 {
+  position: relative;
+}
+.image1 img {
+  position: absolute;
+  top: 41px;
+  left: -108px;
+  z-index: -9;
+}
+.banner_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  width: 100%;
+}
+.banner_btn {
+  margin-top: 24px;
+  width: 344px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_btn a {
+  font-family: "Raleway", system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #3ed1ba;
+  color: #3ed1ba;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.99px;
+  transition: 0.3s;
+}
+.banner_btn a:hover {
+  background: #3ed1ba;
+  color: #ffffff;
+}
+.banner_round_img {
+  width: 458px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 12px 17px;
+  background: #ffffff;
+  border-radius: 8px;
+  gap: 24px;
+  margin-right: -45px;
+  box-shadow: 0px 20px 50px #e2e2e2;
+}
+.round_img {
+  width: 96px;
+  height: 96px;
+}
+.round_text {
+  width: 301px;
+  height: 48px;
+}
+.round_text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+.banner_arrow {
+  width: 120px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+.banner_arrow img {
+  padding: 4px;
+}
+.carrosel_img {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+  gap: 16px;
+}
+.carrosel_img img {
+  width: 296px;
+  height: 360px;
+}
+/* ==================================> Banner End Here <===================================== */
+
+/* ==================================> Article start Here <===================================== */
+
+#articles {
+  margin-top: 120px;
+  position: relative;
+}
+.article_background {
+  position: absolute;
+  width: 100%;
+  height: 1413px;
+  top: 1672px;
+  z-index: -999;
+}
+h1 {
+  width: 351px;
+  height: 64px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.98px;
+  color: #333333;
+}
+.big_article {
+  width: 100%;
+  height: 489px;
+  margin-top: 64px;
+  background: #ffffff;
+  padding: 32px 0px 32px 26px;
+  display: flex;
+  gap: 40px;
+}
+.big_article_img {
+  width: 478px;
+  height: 424px;
+}
+.big_article_text {
+  width: 688px;
+  margin-top: 62px;
+}
+.heading2 {
+  width: 665px;
+  height: 90px;
+}
+.heading2 h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #333333;
+}
+.date_bigarticle {
+  width: 133px;
+  height: 22px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000000;
+}
+.article_description {
+  margin-top: 24px;
+  width: 688px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article_description p {
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+}
+.see_more a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #3ed1ba;
+  transition: 0.3s;
+}
+.see_more a:hover {
+  color: #ac8fff;
+}
+.small_article_wrapper {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.small_article_travel {
+  width: 400px;
+  height: 680px;
+  background: #ffffff;
+  padding: 29px 26px;
+}
+.travel_image {
+  position: relative;
+  width: 348px;
+  height: 200px;
+}
+.travel {
+  width: 112px;
+  height: 32px;
+  background: #ac8fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  padding: 4px 32px;
+}
+.travel p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.travel_article {
+  width: 348px;
+  height: 129px;
+}
+.small_article_text {
+  margin-top: 16px;
+}
+.travel_article h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #333333;
+}
+.date_small_article {
+  width: 133px;
+  height: 22px;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000000;
+}
+.travel_description {
+  width: 348px;
+  height: 220px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.travel_description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #777777;
+}
+
+/* ==================================> Article end Here <===================================== */
+/* ==================================> Next Arrow Start Here <===================================== */
+
+.next_page {
+  padding-top: 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  width: 230px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.number {
+  width: 166px;
+  height: 56px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.number_1 {
+  width: 40px;
+  height: 56px;
+  border: 1px solid #4505fb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number_1 p {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #4505fb;
+}
+.of8 {
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.5%;
+}
+/* ==================================> Next Arrow End Here <===================================== */
+/* ==================================> Instagram Start Here <===================================== */
+.instagram_wrapper {
+  width: 100%;
+  height: 711px;
+  margin-top: 200px;
+  display: flex;
+}
+.instagram_text {
+  width: 521px;
+  height: 711px;
+}
+.instagram_image {
+  width: 711px;
+  height: 711px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+.instagram_image img {
+  width: 349px;
+  height: 349px;
+}
+.instagram_headline {
+  width: 323px;
+  height: 128px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+  color: #333333;
+}
+.instagram_details {
+  margin-top: 32px;
+  width: 400px;
+  height: 104px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #777777;
+}
+.instagram_btn {
+  margin-top: 56px;
+}
+.instagram_button {
+  border: none;
+  width: 192px;
+  height: 56px;
+  background: #7d50ff;
+  padding: 16px 21.5px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.instagram_button:hover {
+  background: #7243ff;
+}
+
+/* ==================================> Instagram End Here <===================================== */
+
+/* ==================================> Footer Start Here <===================================== */
+#footer {
+  position: relative;
+}
+.footer_back_img {
+  position: absolute;
+  width: 100%;
+  height: 428px;
+  z-index: -9;
+}
+.footer_wrapper {
+  width: 100%;
+  height: 428px;
+  margin-top: 160px;
+}
+.footer_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo {
+  width: 400px;
+  height: 184px;
+  margin-top: 124px;
+}
+.footer_aldeb {
+  width: 236px;
+  height: 64px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 64px;
+  color: #3ed1ba;
+}
+.footer_description {
+  width: 400px;
+  height: 104px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #777777;
+  margin-top: 16px;
+}
+.footer_nav {
+  width: 420px;
+  height: 129px;
+  margin-top: 137px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  height: 22px;
+}
+.footer_menu li a {
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  transition: 0.3s;
+}
+.footer_menu li a:hover {
+  color: #3ed1ba;
+}
+.social_media {
+  width: 208px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social_media a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ac8fff;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.social_media a:hover {
+  background: #ffffff;
+  border: 1px solid #ac8fff;
+  color: #ac8fff;
+}
+.footer_underline {
+  width: 100%;
+  height: 1px;
+  margin-top: 24px;
+  background: #cccccc;
+}
+.copyright {
+  width: 214px;
+  height: 32px;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #333333;
+}
+/* ==================================> Footer End Here <===================================== */
